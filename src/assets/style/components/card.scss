@@ -1,0 +1,33 @@
+$mobile_width: 768px;
+
+.home-card{
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:2px solid $darkBlue;
+    border-radius: 3px;
+    background-color: $shadowOfLightBlue;
+    box-sizing: border-box;
+    
+    &-image{
+        object-fit: cover;
+        width: 300px;
+        height: 300px;
+    }
+
+    &-text{
+        font-size: 14px;
+        color: $shadowOfDarkBlue;
+    }
+    
+    @media (max-width: $mobile_width) {
+        min-width: 100%;
+        margin: 0px;
+        &-image{
+            min-width: 100%;
+        }
+    
+    }
+}

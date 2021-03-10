@@ -1,0 +1,36 @@
+{
+    "cards":[
+        {
+            "id" : 1,
+            "text" : "Lorem Ipsum is",
+            "img" : "https://miro.medium.com/max/8000/1*JrHDbEdqGsVfnBYtxOitcw.jpeg"
+        },
+        {
+            "id" : 2,
+            "text" : "simply dummy text",
+            "img" : "https://www.openaccessgovernment.org/wp-content/uploads/2019/03/dreamstime_s_115214614.jpg"
+        },
+        {
+            "id" : 3,
+            "text" : "and typesetting industry.",
+            "img" : "https://media.istockphoto.com/photos/interior-of-modern-office-picture-id973712582?k=6&m=973712582&s=612x612&w=0&h=EgJES9Squ85XZg3jm9oafvtk5ongR5-BDve11eyvRno="
+        }
+    ],
+    "about":[
+        {
+            "id" : 1,
+            "text" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "img" : "https://img.icons8.com/pastel-glyph/2x/dog--v5.png"
+        },
+        {
+            "id" : 2,
+            "text" : "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+            "img" : "https://icons.iconarchive.com/icons/iconsmind/outline/512/Cat-icon.png"
+        },
+        {
+            "id" : 3,
+            "text" : "It has survived not only five centuries, but also the leap into electronic typesetting",
+            "img" : "https://img.icons8.com/ios/452/pig.png"
+        }
+    ]
+}

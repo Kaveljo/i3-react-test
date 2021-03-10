@@ -1,0 +1,25 @@
+$mobile_width: 768px;
+.about-card{
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+    background-color: $shadowOfLightBlue;
+    color: $shadowOfDarkBlue;
+    opacity:0;
+    border: 1px solid $shadowOfDarkBlue;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+        max-width: 150px;
+    }
+    @media (max-width: $mobile_width) {
+        width: 200px;
+        img{
+            width: 150px;
+        }
+    }
+    
+}

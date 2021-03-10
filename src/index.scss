@@ -1,0 +1,17 @@
+@import "./assets/style/colors.scss";
+@import "./assets/style/layout/header.scss";
+@import "./assets/style/layout/footer.scss";
+
+@import "./assets/style/pages/home.scss";
+@import "./assets/style/pages/about.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    margin: 0;
+    background-color: $lighterBlue;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}

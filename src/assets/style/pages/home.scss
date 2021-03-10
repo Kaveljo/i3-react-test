@@ -1,0 +1,47 @@
+@import '../components/card.scss';
+
+$mobile_width: 768px;
+
+.home{ 
+    margin: 80px auto 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    box-sizing: border-box;
+
+    &-wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    &-buttons{
+        display: none;
+        margin: 20px 0;
+
+        button{
+            background:$shadowOfLightBlue;
+            padding: 30px;
+            border: 3px solid $darkBlue;
+            border-radius: 4px;
+            color: $shadowOfDarkBlue;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+
+    @media (max-width: $mobile_width) {
+        width: 90%;
+        &-wrapper{
+            flex-wrap: nowrap;
+            overflow: hidden;
+        }
+        &-buttons{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}
